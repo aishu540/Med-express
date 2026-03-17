@@ -1,0 +1,2518 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+html, body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+/*MainPage  */
+.MainPage{
+    background-image: url(Images/background1.png);
+    width:100%;
+    /* height:100vh; */
+    position:relative;
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding:10px 0;
+    
+
+}
+.badge{
+    padding-left: 50px;
+    margin-top:12px;
+    height:40px;
+}
+.page12{
+    position:relative;
+
+}
+.navsec{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.about{
+    display:flex;
+    gap:20px;
+    background-color: rgba(255, 255, 255, 0.2);
+   
+    padding:5px;
+    border-radius: 24px;
+    /* padding:5px; */
+}
+.about:hover{
+     border:1px solid rgba(14, 130, 253, 1);
+}
+.middle:hover{
+    border: 1px solid rgba(14, 130, 253, 1)
+}
+.About{
+  background-color: white;
+  
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* margin:2px; */
+}
+.navigation{
+    padding:7px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.Banner{
+    font-weight: 600;
+    font-size: 71px;
+    line-height: 78px;
+    text-align: center;
+    margin-top:10px;
+   
+   
+
+}
+.Paragraph{
+    font-weight: 500;
+    font-size:22px;
+    line-height: 24px;
+    
+    text-align: center;
+    /* padding-bottom: 180px; */
+    /* padding-top:-60px; */
+}
+.HeroSection{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+ 
+    /* padding:0 71px; */
+    gap:12px;
+
+   
+
+}
+
+/* About-MedExpress */
+.About-MedExpress{
+  
+    
+    /* height: 100vh; */
+    position: relative; 
+    
+
+
+    
+}
+.About-MedEx-Content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page12{
+    position: relative;
+}
+.board{
+   /* padding-left:300px; */
+   position:absolute;
+   /* margin-top:350px; */
+   z-index: 2;
+   width:90%;
+   height:400px;
+   margin-top:400px;
+   margin-bottom:100px;
+   
+}
+.boardh{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    background-color:rgba(14, 130, 253, 1);
+    padding:18px;
+    border-radius: 21px;
+    border-style: none;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top:12px;
+    margin-bottom:90px;
+}
+.middle-section{
+    position:relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid rgba(14, 130, 253, 1); */
+}
+
+.About-Container{
+     
+      width:100%;
+     
+      
+      
+  
+    position: relative;
+    padding-top:440px;
+   
+    
+}
+.About-header-container{
+   
+    width:62%;
+}
+.title{
+    font-size:40px;
+    font-weight: 500;
+
+}
+.About-Container{
+     display: flex;
+    flex-direction: column;
+     justify-content: flex-end;
+    align-items: flex-end; 
+    line-height: 50px; 
+    /* width:62%;   */
+
+}
+.About-left{
+    /* padding:0  71px; */
+    padding-top:10px;
+    width:50%;
+}
+.aboutint{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.about-ME{
+    opacity:0.6;
+    font-weight: 500;
+}
+.about-img{
+    width:30%;
+    height:auto;
+    
+    
+}
+.About-gallery{
+    display: flex;
+    gap:16px;
+    padding-top:99px;
+}
+.about_Im1{
+    border-radius:18px;
+    
+}
+.about_Im2{
+    border-radius:22px ;
+
+}
+.about_Im3{
+    border-radius:50%;
+    
+   
+}
+
+.about-right{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    padding-top:10px;
+
+}
+.About-Content{
+    display:flex;
+    width:90%;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding-bottom:44px;
+  
+}
+.about-description{
+    color:rgba(145, 156, 180, 1);
+    font-size:16px;
+    line-height: 21px;
+}
+.About-points{
+    padding-top:18px;
+    display:block;
+    list-style-type: none;
+   line-height: 35px;
+
+}
+.About-points li{
+    font-size:14px;
+    font-weight: bold;
+    color:rgba(1, 16, 36, 1);
+}
+.check{
+    padding-right: 14px;
+    /* filter:brightness(0.6); */
+   color: rgba(13, 195, 48, 1);
+   width:30px;
+
+   height:20px;
+}
+.Book{
+    display:inline-flex;
+    align-items: center;
+    color:rgba(14, 130, 253, 1);
+    margin:48px;
+    gap:5px;
+}
+.downarrow{
+    width:16px;
+    height:16px;
+}
+/* We-specialize-in */
+.We-specialize-in{
+    background-image: url(Images/background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width:100%;
+    /* height:100vh; */
+   
+    background-position: center;
+
+}
+.specialize-int{
+    color:rgba(1, 16, 36, 1);
+    font-weight: 500;
+    /* line-height: 32px; */
+    font-size: 20px;
+}
+.specilize-head-container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.specialize{
+    color:rgba(255, 255, 255, 1);
+
+}
+.specialize-title{
+    font-size:33px;
+    font-weight:500 ;
+    color:rgba(1, 16, 36, 1);
+    margin-top:18px;
+}
+.specialize-description{
+    font-weight: 500;
+    font-size:16px;
+  
+    line-height: 22px;
+    width:80%;
+}
+.specialize-card{
+    width:33%;
+    /* height:260px; */
+   
+    margin-top:30px;
+    background-color:rgba(255, 255, 255, 0.4);
+    padding:12px;
+    border-radius:16px;
+    
+    
+
+    
+}
+.specialize-card-img{
+    width:100%;
+    height:180px;
+    border-radius: 12px;
+}
+.specialize-card-text{
+    font-weight: 600;
+    font-size:15px;
+    color:rgba(1, 16, 36, 1);
+    padding-top:10px;
+}
+.specialize-cards{
+    display:flex;
+    /* justify-content: space-between; */
+    gap: 14px;
+
+}
+.specialize-heading{
+    color:rgba(1, 16, 36, 1);
+    font-weight: 500;
+    font-size:40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.feature-card{
+    width:33%;
+    
+   
+    margin-top:30px;
+    background-color:rgba(255, 255, 255, 1);
+    padding:23px 20px;
+    border-radius:16px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:30px;
+   
+}
+.specilize-footer{
+    width:90%;
+   
+}
+.specialize-features{
+    display:flex;
+    /* justify-content: space-between; */
+    gap: 14px;
+
+}
+.feature-number{
+    color:rgba(14, 130, 253, 0.8);
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+.feature-text{
+     font-weight: 600;
+    font-size:16px;
+    color:rgba(1, 16, 36, 1);
+ 
+}
+.specilize-main{
+    width:90%;
+}
+/* How-It-Works */
+.How-It-Works{
+    width:100%;
+    /* height: 100vh; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding:45px 0;
+  
+   
+
+}
+.work-highlight{
+    font-weight: 500;
+    font-size: 18px;
+    color:#919CB4;
+}
+.work-title{
+    font-weight: 500;
+    font-size:33px;
+    color:#011024;
+}
+.work-description{
+   font-weight: 500;
+    font-size:16px; 
+    color:#919CB4;   
+    /* text-align:justify; */
+}
+.work-header-left{
+    width:50%;
+    
+}
+.work-header-right{
+    width:50%;
+    
+
+}
+.work-head-container{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+
+}
+.work-int{
+    font-size:18px;
+    color:#011024;
+    font-weight: 500;
+}
+
+.work-header{
+    display:flex;
+    gap:50px;
+   
+    align-items: center;
+}
+.work-step-card{
+    width:32%;
+   
+    background-color: #E9F4FF;
+    border-radius: 22px;
+    padding:20px;
+    position:relative;
+}
+.work-steps{
+    display:flex;
+    gap:20px;
+    margin-top: 26px;
+    flex-wrap: wrap;
+}
+.work-step-icon{
+    width:120px;
+    height:120px;
+    
+}
+.work-step-icon-wrapper{
+    position:absolute;
+    top:0;
+    right:0;
+   
+   
+}
+.work-step-number{
+   
+    font-weight: 500;
+    font-size:16px;
+    color:#011024;
+    
+}
+
+.work-step-container{
+   display:flex;
+   flex-direction: column;
+   gap:150px;
+
+  
+   
+}
+
+
+
+.work-step-title{
+    font-size:22px;
+    font-weight: 600;
+    color:#011024;
+    margin-bottom:10px;
+}
+.work-step-text{
+     font-size:14px;
+    font-weight: 500;
+    color:#919CB4;
+    line-height: 18px;
+}
+.work-card{
+    width:32%;
+    height:280px;
+    background-color:white;
+    border-radius: 22px;
+    border:1px solid #E9F4FF;
+}
+.work-card-title{
+    padding:24px;
+}
+.cta-click-icon{
+    size:50px;
+    height: 50px;
+    color:#666666;
+    margin-top:-10px;
+
+}
+.work-container{
+      width:90%;
+    display: flex;
+    flex-direction: column;
+ 
+  
+}
+.work-icon-wrapper{
+    display:flex;
+    justify-content: flex-end;
+    padding-right:20px;
+}
+.work-icon{
+    width:48%;
+}
+
+
+.work-button{
+    margin-left: 30px;
+   
+    margin-top:10px;
+ 
+
+}
+/* Who-We-Serve */
+.Who-We-Serve{
+   background-color: rgba(238, 242, 245, 1);
+   width:100%;
+   padding:60px 35px;
+
+}
+.s5p{
+    font-weight: 500;
+    font-size:18px;
+    color:rgba(1, 16, 36, 1);
+    text-align: center;
+}
+.we{
+    color:rgba(145, 156, 180, 1);
+    /* text-align: center; */
+}
+.heading5{
+    font-weight:500;
+    font-size:33px;
+    line-height:1.2;
+    text-align:center;
+      padding:0 280px;
+    padding-top:30px;
+  
+}
+.ParagraphSec5{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.paraplus{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* .paraplus p{
+    margin:0;
+} */
+
+.plusc{
+    height: 40px;
+    width: 40px;
+    border:1px solid rgba(145, 156, 180, 1);
+    /* padding:10px; */
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+}
+.plus{
+     width:16px;
+    height:16px;
+}
+.study{
+    padding-left:480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para1sec5{
+    margin-bottom: -30px;
+}
+/* Compliance-and-Legal-Information */
+.Compliance-and-Legal-Information{
+    width:100%;
+    background-color: white;
+  
+    display:flex;
+    padding:45px 0;
+    justify-content: center;
+
+
+}
+.comilance-container{
+    width:90%;
+    display:flex;
+    
+    gap:100px;
+   
+}
+
+.compliance-points{
+    padding-top:18px;
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+   gap:20px;
+
+}
+.compliance-points li{
+    font-size:14px;
+    font-weight: bold;
+    color:rgba(1, 16, 36, 1);
+    display: flex;
+    gap:15px;
+    
+   
+}
+
+.compilance-int{
+ font-weight: 500;
+    font-size:18px;
+    color:rgba(1, 16, 36, 1);
+    
+}
+.compliance-higlighted{
+ color:rgba(145, 156, 180, 1);
+}
+.compliance-left{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.compliance-title{
+    font-size:33px;
+    color:rgba(1, 16, 36, 1);
+    font-weight: 500;
+}
+.compliance-description{
+    font-weight: 500;
+    font-size: 16px;
+    color:rgba(145, 156, 180, 1);
+}
+
+.compliance-right{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compilance-right-image{
+ width:100%;
+ bottom:0;
+}
+/* Our-Trusted-Testimonials */
+.Our-Trusted-Testimonials{
+    background-image:url(Images/Background7.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+     padding:54px;
+}
+.frame{
+    position:absolute;
+    width:90%;
+    height:300px;
+    padding:54px;
+    mask-image: url(Images/Background7.png);
+    /* background-image: url(Images/Background7.png); */
+    
+   
+}
+.testimonials-int{
+    font-weight: 500;
+    font-size:18px;
+    color:rgba(1, 16, 36, 1);
+      text-align:center;
+    
+
+}
+.testimonials-highlighted{
+    color:rgba(255, 255, 255, 1);
+  
+}
+.testimonials-cards{
+    width:100%;
+    display:flex;
+    margin-top:40px;
+    /* justify-content: space-between; */
+    gap:10px;
+}
+.testimonials-card{
+    width:20%;
+    height:230px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius:20px;
+    padding:14px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    display:flex;
+    /* display:flex; */
+    /* align-items:center;
+    justify-content: center;*/
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+}
+.heading7{
+    
+    font-weight:500;
+    text-align:center;
+    margin-top:32px;
+    color:rgba(1, 16, 36, 1);
+}
+.testimonials-subh{
+   color:rgba(14, 130, 253, 1);
+   /* margin-top:-30px; */
+   margin-right:40px;
+   font-size:14px;
+    font-weight: 500;
+   
+}
+
+.testimonials-content{
+    font-size:13px;
+    font-weight: 500;
+    color:rgba(1, 16, 36, 1);
+    margin-top:20px;
+    font-style: italic;
+    /* text-align: justify; */
+}
+.testimonials-ProfileP1{
+    height:35px;
+    width:35px;
+    margin-right:3px;
+}
+.customer-name{
+    font-size:12px;
+    
+    color:rgba(1, 16, 36, 1);
+    font-weight: 600;
+    /* margin-left:20px; */
+}
+.Designation{
+    font-weight: 400;
+    color:rgba(45, 45, 48, 1);
+    font-size:12px;
+    /* padding-right:10px; */
+}
+.testimonials-reviews{
+    display:flex;
+    gap:30px;
+    margin-top:26px;
+    justify-content: space-between;
+}
+.aps{
+    color:rgba(14, 130, 253, 1);
+    /* font-size: 100px; */
+}
+.glyph{
+    /* display:flex; */
+   justify-content: flex-end;
+   width:20px;
+}
+
+.frame2{
+    width:30%;
+    background-color:rgba(255, 255, 255, 1);
+    border:1px solid rgba(233, 244, 255, 1);
+}
+.testimonials-review2{
+    display:flex;
+    justify-content: space-between;
+}
+.testimonials-stars{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+}
+.star{
+    font-weight: 700;
+    size:16px;
+}
+.testimonials-content2{
+    position: relative;
+}
+.testimonials-Drag{
+    position:absolute;
+    display:flex;
+    /* border:1px solid rgba(255, 255, 255, 0.5); */
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left:90px;
+    margin-top:45px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    background:linear-gradient(rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(1px);
+}
+
+/* Your-Questions-Answered*/
+.Your-Questions-Answered{
+    width:100%;
+   
+    padding:54px;
+    display:flex;
+    gap:20px;
+}
+.QA-int{
+ font-weight: 500;
+    font-size:18px;
+    color:rgba(1, 16, 36, 1);
+      /* text-align:center; */
+}
+.QA-higlighted{
+  color:rgba(145, 156, 180, 1);
+}
+.QA-left{
+ width:50%;
+}
+.QA-right{
+ width:50%;
+ display: flex;
+ flex-direction: column;
+ gap:20px;
+}
+.QA-heading{
+    font-size:33px;
+    
+    color:rgba(1, 16, 36, 1);
+    margin-top:35px
+
+}
+.QA-content{
+    color:rgba(145, 156, 180, 1);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top:22px;
+    
+}
+.button8{
+  
+   margin-top:30px;
+}
+.rightsec8{
+   width:50%;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+}
+.QA-question{
+    font-size: 18px;
+    color:#011024;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+.QA-Answer{
+    font-size:16px;
+    font-weight: 500px;
+    line-height: 24px;
+}
+.QA-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+
+
+/* Section9 */
+.MedExpress-container{
+    display:flex;
+    width:40%;
+    color:white;
+    flex-direction: column;
+    
+    gap:10px;
+    /* justify-content: space-between; */
+}
+
+/* MedExpress-Services */
+.MedExpress-Services{
+    width:100%;
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0)),url(Images/background9.png);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+   justify-content: center;
+   padding:30px 0;
+   
+}
+.title{
+    font-weight: 500;
+    font-size:36px;
+    color:rgba(255, 255, 255, 1);
+}
+.content{
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+     line-height: 26px;
+}
+
+.Medexpress-head-container{
+    width:90%;
+}
+
+.Contact-MedExpress{
+    width:90%;
+    background-color: white;
+    display:flex;
+   
+    gap:30px;
+    padding:40px 0;
+   
+}
+
+.contact-medexpress-container{
+  display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.contact-int{
+ font-weight: 500;
+    font-size:18px;
+    color:rgba(1, 16, 36, 1);
+}
+.Contact{
+  color:rgba(145, 156, 180, 1);
+}
+
+
+
+
+.contact-title{
+    color:#011024;
+    font-weight: 500;
+    font-size: 33px;
+    
+}
+.contact-content{
+    font-weight: 500;
+    color:#919CB4;
+    
+    line-height: 24px;
+}
+.contact-OperationalHours{
+    display:flex;
+    flex-direction: column;
+   
+    gap:20px;
+    
+
+}
+.contact-item1{
+    color:#011024;
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-item{
+     font-weight: 500;
+    color:#919CB4;
+    font-size:16px;
+}
+.contact-me{
+    color:#0E82FD;
+}
+.contact-right{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+.contact-form label{
+    display:block;
+    /* margin-top:10px; */
+    text-decoration: none;
+    width:100%;
+   
+    font-weight: 500;
+    font-size:16px;
+
+}
+.contact-star{
+    color:#FB301F;
+    font-weight: 500;
+}
+.contact-form input,
+.contact-form textarea{
+    outline:none;
+    border-style: none;
+     width:100%;
+     border-bottom: 1px solid #919CB4;
+   
+  
+}
+
+.contact-form textarea{
+    height:60px;
+     resize: none;
+}
+.contact-form hr{
+   
+    height:1px;
+    color:#919CB4;
+   
+}
+
+.Contact-MedExpress{
+    position: relative;
+}
+
+.contact-medexpress-main-container{
+    position: absolute;
+    left: 48%;
+  
+    top: 0;
+    height: 100%;
+    border-right: 1px solid #919CB4;
+  
+  
+}
+
+
+.contact-form{
+ 
+    display:flex;
+    flex-direction: column;
+    gap:19px;
+}
+
+
+.contact-left{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    gap:120px;
+}
+
+.contact-content-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+/* footer Section */
+.MedExpress-Enterprise{
+    background-image: url(Images/Medexpress_Background.png);
+    width:100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-container{
+    width:90%;
+    display: flex;
+    gap:20px;
+    padding:60px 0;
+   position:relative;
+   
+
+
+}
+
+
+.footer-left-sub{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+
+
+
+.footer-left{
+    width:50%;
+}
+
+.footer-right{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:135px;
+    align-items: flex-end;
+   
+}
+
+.footer-sub{
+    display: flex;
+    gap:90px;
+
+}
+
+
+.footer-medexpress_icon{
+    width:45%;
+    
+}
+
+
+.footer-left-icons{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.footer-icons{
+    display: flex;
+    gap:10px;
+}
+
+.footer-icon{
+    width:68%;
+    
+   
+}
+
+.footer-icon-card{
+    width:30px;
+    height: 30px;
+    background-color: rgba(14 ,128, 252, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+
+.footer-right-sub{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+
+
+
+.MedExpress-Enterprise p{
+    font-weight: 500;
+}
+
+
+.footer-hed{
+    /* text-shadow: 1px 0 1px rgba(255, 255, 255, 0.1),-1px 0 1px rgba(255, 255, 255, 0.1),0 1px 1px rgba(255, 255, 255, 0.1), 0 -1px 1px rgba(255, 255, 255, 0.1); */
+    color:rgba(255, 255, 255, 0.1);
+    position:absolute;
+   
+    top:53px;
+}
+
+
+.footer-hed-container{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    
+   
+
+}
+.footer-content{
+    line-height:22px;
+}
+
+.ME-Button{
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+    background-color: rgba(14, 130, 253, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px;
+}
+
+
+
+
+ 
+ 
+
+
+.ME-Paragraph{
+    font-size: 16px;
+    line-height: 24px;
+}
+.ME-title{
+    font-size:33px;
+}
+
+
+
+
+
+@media only  screen  and (max-width:575px){
+.Banner{
+    font-size: 35px;
+    line-height: 44px;
+}
+.Paragraph{
+    font-weight: 500;
+    font-size:16px;
+}
+
+.About-header-container{
+    width:100%;
+}
+.About-header{
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+  padding:0 30px;
+}
+.About-Content{
+    display:flex;
+    flex-direction: column;
+    
+}
+.About-left{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:0;
+    
+}
+.about-right{
+    width:100%;
+    display:flex;
+   
+   
+    
+}
+
+.check{
+  padding:0;
+    /* filter:brightness(0.6); */
+  
+   width:14px;
+
+   height:22px;
+}
+.About-gallery{
+    display: flex;
+   
+ 
+    gap:10px;
+    padding-top:10px;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about-img{
+    width:100%;
+    height: auto;
+ 
+}
+.about-description{
+    font-size: 16px;
+    padding-top:20px;
+    
+}
+.About-points{
+   
+   line-height: 32px;
+
+}
+.About-points li{
+    font-size:15px;
+   
+}
+.Book{
+    font-size: 16px;
+    margin: 14px;
+    gap: 5px;
+}
+.specilize-main{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.specialize-title{
+    width:100%;
+    text-align: center;
+    font-size: 33px;
+}
+.specialize-description{
+  
+    font-size:16px;
+   
+  
+    width:100%;
+    text-align: center;
+
+}
+
+.We-specialize-in{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+.specialize-cards{
+    display:flex;
+    flex-direction: column;
+    
+}
+.specialize-heading{
+    font-size:35px;
+}
+.specialize-card{
+    width:100%;
+    height: auto;
+}
+.specialize-card-text {
+    font-size: 14px;
+}
+.specilize-footer{
+ width:90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-bottom:30px;
+}
+
+.feature-card {
+   
+   
+    padding: 20px;
+   
+   
+    gap:18px;
+}
+.feature-text {
+   
+    font-size: 15px;
+    
+}
+.feature-number {
+    
+    font-size: 45px;
+   
+}
+
+.work-header{
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    /* margin-top:30px; */
+    align-items: center;
+}
+
+.work-header-left{
+    width:100%;
+    
+}
+.work-header-right{
+    width:100%;
+    
+
+}
+.work-title{
+    font-size:33px; 
+    text-align:center 
+}
+.work-description{
+    text-align: center;
+}
+.work-steps{
+      display:flex;
+      flex-direction: column;
+    gap:20px;
+  
+}
+.work-step-card{
+ width:100%;
+}
+.work-card{
+    width:100%;
+}
+
+.work-step-title{
+    font-size: 20px;
+}
+.work-card-title {
+    font-size:20px;
+}
+
+.work-int{
+    text-align:center;
+}
+.compliance-container{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+   gap:24px;
+}
+.compliance-left{
+    width:100%;
+
+}
+.compliance-right{
+    width:100%;
+    
+}
+.compliance-int{
+    text-align: center;
+
+}
+.compliance-title{
+    font-size: 33px;
+    text-align: center;
+}
+.compliance-description{
+text-align: center;
+}
+.compliance-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.compliance-left{
+    gap:22px;
+}
+
+.MedExpress-container{
+    width:100%;
+
+}
+.title{
+    font-size:28px;
+    text-align:center;
+}
+.content{
+    text-align: center;
+}
+
+.Medexpress-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Medexpress-button{
+    padding:14px;
+}
+.Contact-MedExpress{
+    flex-direction: column;
+    gap:35px;
+}
+/* .contact-button{
+    width:60%;
+} */
+.contact-button-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.contact-left{
+    width:100%;
+}
+.contact-right{
+    width:100%;
+}
+
+.contact-medexpress-main-container{
+ 
+   display: none;
+  
+}
+.contact-int{
+    text-align: center;
+    align-items: center;
+
+}
+.contact-button {
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+    background-color: rgba(14, 130, 253, 1);
+    color: rgba(255, 255, 255, 1);
+   
+    
+}
+.contact-title{
+    text-align: center;
+}
+.contact-content{
+    text-align: center;
+}
+.contact-left{
+    gap:20px;
+}
+
+.contact-item1{
+ text-align: center;
+}
+
+.ME-Paragraph{
+    font-size: 16px;
+}
+.ME-title{
+    font-size:28px;
+}
+.footer-icon-container{
+    display: flex;
+   
+    justify-content: center;
+}
+.footer-medexpress_icon{
+    width:75%;
+   
+   
+}
+.footer-container{
+   
+    display: flex;
+    flex-direction: column;
+}
+.footer-left{
+    width:100%;
+    display: flex;
+   
+    text-align: center;
+  
+}
+.footer-left-sub{
+    gap:20px;
+}
+.footer-icons{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left-icons {
+    gap:21px;
+}
+.footer-right{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.footer-sub{
+    align-items: center;
+    justify-content: center;
+}
+.footer-sub-container{
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.footer-sub{
+    gap:44px;
+}
+.footer-hed {
+ 
+    top: 224px;
+    
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen  and (max-width:480px){
+    .Banner{
+    font-size: 28px;
+    line-height: 35px;
+    }
+    .Paragraph{
+     font-size:16px;
+    text-align: center;
+    }
+  .About-header{
+
+  padding:0;
+ }
+
+
+.about-img{
+   width:100%;
+   height: auto;
+}
+.about-description{
+    font-size: 16px;
+    padding-top:20px;
+}
+
+.About-points li{
+    font-size:13px;
+   
+}
+.specialize-features{
+    display:flex;
+    flex-direction: column;
+
+    
+}
+.feature-card{
+   width:100%;
+   /* height:75px; */
+   padding:20px;
+ 
+  
+    gap:14px; 
+}
+.feature-number{
+  
+    font-size: 45px;
+    
+    
+}
+.specialize-features {
+    gap:4px;
+}
+.feature-text{
+    
+    font-size:15px;
+   
+ 
+}
+.specialize-cards{
+    gap:2px;
+}
+
+
+
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+  .Banner{
+    font-size: 40px;
+    line-height: 59px;
+  }
+    .Paragraph{
+    font-size:16px;
+    line-height: 32px;
+  }
+  .About-header-container{
+    width:100%;
+}
+.About-header{
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+  padding:0 30px;
+}
+.About-Content{
+    display:flex;
+    flex-direction: column;
+    
+}
+.About-left{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about-right{
+    width:100%;
+    display:flex;
+   
+   
+    
+}
+.About-Content{
+    
+    width:90%;
+    
+}
+.About-gallery{
+    display: flex;
+    /* flex-direction: column; */
+ 
+    gap:10px;
+    padding-top:10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about-img{
+    width: 30%;
+    height: 200px;
+}
+.about-description{
+    font-size: 16px;
+    padding-top:0;
+    
+}
+.About-points{
+   
+   line-height: 32px;
+
+}
+.About-points li{
+    font-size:16px;
+   
+}
+.Book{
+    font-size: 18px;
+    margin: 14px;
+    gap: 5px;
+}
+
+.specilize-main{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.specialize-title{
+    width:100%;
+    text-align: center;
+    font-size: 33px;
+}
+.specialize-description{
+  
+    font-size:16px;
+   
+  
+    width:100%;
+    text-align: center;
+
+}
+.We-specialize-in{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+.specialize-cards{
+    display:flex;
+    /* flex-direction: column; */
+    
+}
+.specialize-card-section{
+    display: flex;
+   flex-direction: column;
+    gap:20px;
+}
+.specialize-heading{
+    font-size:35px;
+    margin-top:24px;
+}
+.specialize-card{
+    width:33%;
+    height: auto;
+}
+.specialize-card-text {
+    font-size: 14px;
+}
+.specilize-footer{
+ width:90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-bottom:30px;
+}
+.specialize-card-img{
+    height:150px;
+}
+.specialize-int{
+   align-self: flex-start;
+}
+
+.feature-card {
+   
+   padding:20px;
+  
+   
+   
+    gap: 18px;
+}
+.feature-text {
+   
+    font-size: 15px;
+    
+}
+.feature-number {
+    
+    font-size: 45px;
+   
+}
+.work-header{
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    /* margin-top:30px; */
+    align-items: center;
+}
+
+.work-header-left{
+    width:100%;
+    
+}
+.work-header-right{
+    width:100%;
+    
+
+}
+
+.work-title{
+    font-size:33px; 
+    text-align:center 
+}
+.work-description{
+    text-align: center;
+}
+
+.work-step-card{
+    width:48%;
+    height: 33%;
+  
+   
+   
+}
+.work-steps{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding:26px 0;
+    flex-wrap: wrap;
+}
+.work-card{
+    width:48%;
+}
+.work-card-title{
+    font-size: 20px;
+}
+.work-step-title{
+    font-size: 21px;
+}
+.comilance-container{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+   gap:24px;
+}
+.compliance-left{
+    width:100%;
+
+}
+.compliance-right{
+    width:100%;
+    
+}
+.compilance-int{
+    text-align: center;
+
+}
+.compliance-title{
+    font-size: 33px;
+    text-align: center;
+}
+.compliance-description{
+text-align: center;
+}
+.compliance-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.compliance-points li{
+    font-size: 16px;
+}
+
+.MedExpress-container{
+    width:45%;
+     padding-top: 140px;
+}
+.title{
+    font-size: 26px;
+    line-height: 32px;
+   
+}
+.ME-Paragraph{
+    font-size: 16px;
+}
+.ME-title{
+    font-size:30px;
+}
+
+.footer-icon-container{
+    display: flex;
+   
+    justify-content: center;
+}
+.footer-medexpress_icon{
+    width:45%;
+   
+   
+}
+.footer-container{
+   
+    display: flex;
+    flex-direction: column;
+}
+.footer-left{
+    width:100%;
+    display: flex;
+   
+    text-align: center;
+  
+}
+.footer-left-sub{
+    gap:20px;
+}
+.footer-icons{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left-icons {
+    gap:21px;
+}
+.footer-right{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.footer-sub{
+    align-items: center;
+    justify-content: center;
+}
+.footer-sub-container{
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.footer-sub{
+    gap:204px;
+}
+.footer-hed {
+ 
+    top: 195px;
+    
+    font-size: 50px;
+}
+
+
+  
+
+  
+  
+  
+
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+      .Banner{
+    font-size: 37px;
+    line-height: 59px;
+   }
+    .Paragraph{
+    font-size:16px;
+    line-height: 32px;
+   }
+
+    .About-header-container{
+    width:100%;
+}
+.About-header{
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+  padding:0 30px;
+}
+.About-Content{
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    
+}
+.About-left{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about-right{
+    width:100%;
+    display:flex;
+   
+   
+    
+}
+.About-Content{
+    
+    width:90%;
+    
+}
+.About-gallery{
+    display: flex;
+    /* flex-direction: column; */
+ 
+    gap:10px;
+    padding-top:10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about-img{
+   width: 222px;
+  height: 222px;
+}
+.about-description{
+    font-size: 16px;
+    padding-top:0;
+    
+}
+.About-points{
+   
+   line-height: 32px;
+
+}
+.About-points li{
+    font-size:16px;
+   
+}
+.Book{
+    font-size: 18px;
+    margin: 14px;
+    gap: 5px;
+}
+.specilize-main{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.specialize-title{
+    width:100%;
+    text-align: center;
+    font-size: 33px;
+}
+.specialize-description{
+  
+    font-size:16px;
+   
+  
+    width:100%;
+    text-align: center;
+
+}
+.We-specialize-in{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+
+.specialize-heading{
+    font-size:35px;
+    margin-top:24px;
+}
+.specialize-card{
+    width:33%;
+    height: auto;
+}
+.specialize-card-text {
+    font-size: 14px;
+}
+.specilize-footer{
+ width:90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-bottom:30px;
+}
+
+.specialize-int{
+   align-self: flex-start;
+}
+
+.feature-card {
+    width:48%;
+   
+   padding:20px;
+  
+   
+   
+    gap: 18px;
+}
+.feature-text {
+   
+    font-size: 15px;
+    
+}
+.feature-number {
+    
+    font-size: 45px;
+   
+}
+.specialize-features{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 0;
+ 
+}
+
+.work-header{
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    /* margin-top:30px; */
+    align-items: center;
+}
+
+.work-header-left{
+    width:100%;
+    
+}
+.work-header-right{
+    width:100%;
+    
+
+}
+
+.work-title{
+    font-size:33px; 
+    text-align:center 
+}
+.work-description{
+    text-align: center;
+    font-size:16px;
+}
+
+.work-step-card{
+    width:48%;
+  
+   
+   
+}
+.work-steps{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding:26px 0;
+    flex-wrap: wrap;
+}
+.work-card{
+    width:48%;
+     /* height: 33%; */
+}
+.work-card-title{
+    font-size: 20px;
+}
+.work-step-title{
+    font-size: 21px;
+}
+}
+
+
+  
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+
+
+.comilance-container{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+   gap:24px;
+}
+.compliance-left{
+    width:100%;
+
+}
+.compliance-right{
+    width:100%;
+    
+}
+.compilance-int{
+    text-align: center;
+
+}
+.compliance-title{
+    font-size: 33px;
+    text-align: center;
+}
+.compliance-description{
+text-align: center;
+}
+.compliance-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.compliance-points li{
+    font-size: 16px;
+}
+.MedExpress-container{
+    width:45%;
+     padding-top: 140px;
+}
+.title{
+    font-size: 26px;
+    line-height: 32px;
+   
+}
+.ME-Paragraph{
+    font-size: 16px;
+}
+.ME-title{
+    font-size:30px;
+}
+ .footer-icon-container{
+    display: flex;
+   
+    justify-content: center;
+}
+.footer-medexpress_icon{
+    width:45%;
+   
+   
+}
+.footer-container{
+   
+    display: flex;
+    flex-direction: column;
+}
+.footer-left{
+    width:100%;
+    display: flex;
+   
+    text-align: center;
+  
+}
+.footer-left-sub{
+    gap:20px;
+}
+.footer-icons{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left-icons {
+    gap:21px;
+}
+.footer-right{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.footer-sub{
+    align-items: center;
+    justify-content: center;
+}
+.footer-sub-container{
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.footer-sub{
+    gap:204px;
+}
+.footer-hed {
+ 
+    top: 195px;
+    
+    font-size: 50px;
+}
+
+
+}
+@media only screen and (min-width:1024px){
+  .Banner{
+    margin-top:20px;
+   font-size: 46px;
+    line-height: 68px;
+   }
+    .Paragraph{
+    font-size:16px;
+    line-height: 35px;
+    }
+
+.About-header{
+ font-size:33px;
+}
+
+.about-description{
+   font-size:16px;
+   
+    
+}
+.about-img{
+    width: 30%;
+    height: auto;
+}
+
+.About-points li{
+  font-size: 14px;
+   
+}
+.Book{
+  font-size:18px;
+}
+
+.specilize-main{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.specialize-title{
+    width:100%;
+    text-align: center;
+    font-size: 33px;
+    margin-top:30px;
+}
+.specialize-description{
+  
+    font-size:16px;
+   
+   
+  
+    width:100%;
+    text-align: center;
+
+}
+.We-specialize-in{
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+
+.specialize-heading{
+    font-size:35px;
+    margin-top:24px;
+}
+.specialize-card{
+    width:33%;
+    height: auto;
+}
+.specialize-card-text {
+    font-size: 15px;
+}
+.specilize-footer{
+ width:90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-bottom:30px;
+}
+.specialize-card-img{
+    height:200px;
+}
+.specialize-int{
+   align-self: flex-start;
+   font-size: 22px;
+}
+
+.feature-card {
+   
+   padding:20px;
+  
+   
+   
+    gap: 18px;
+}
+.feature-text {
+   
+    font-size: 15px;
+    
+}
+.feature-number {
+    
+    font-size: 45px;
+   
+}
+.work-step-title{
+    font-size: 21px;
+}
+.work-card-title{
+    font-size:20px;
+}
+.compliance-points li{
+    font-size: 16px;
+}
+.MedExpress-container{
+    width:45%;
+     padding-top: 140px;
+     gap:14px;
+}
+.title{
+    font-size: 30px;
+    line-height: 35px;
+    
+   
+}
+.ME-Paragraph{
+    font-size: 16px;
+}
+.ME-title{
+    font-size:33px;
+}
+.footer-hed{
+    font-size: 145px;
+}
+
+  
+
+}
+
+/* Contact MedExpress */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
